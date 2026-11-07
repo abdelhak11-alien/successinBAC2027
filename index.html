@@ -69,6 +69,8 @@ footer{padding:30px 0;text-align:center;color:var(--mut);font-size:.9rem;border-
 .rv-on{opacity:0;transform:translateY(34px);transition:opacity .8s,transform .8s}.rv-on.in{opacity:1;transform:none}
 #lb{position:fixed;inset:0;background:rgba(0,0,0,.92);display:none;align-items:center;justify-content:center;z-index:50;cursor:zoom-out;padding:16px}#lb.on{display:flex}#lb img{max-width:100%;max-height:92vh;border-radius:8px;animation:pop .35s}
 @media(max-width:700px){.subj{grid-template-columns:1fr 1fr;gap:12px}.subj .sc:last-child:nth-child(odd){grid-column:1/-1;width:calc(50% - 6px);justify-self:center}.sc h3{font-size:1.1rem;padding:10px 12px 0}.sc p{padding:0 12px 12px;font-size:.8rem}.g2,.prices,.proof{grid-template-columns:1fr}nav .hide{display:none}.tile{opacity:.3}}
+.video{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;border:1px solid var(--gold);background:#000}.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;align-items:start}.shots figure{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px;cursor:zoom-in}.shots img{width:100%;display:block;border-radius:6px}
 </style></head><body>
 <nav><div class="wrap"><a href="#top"><img src="logo-clean.png" alt="AFKH Success Pack"></a><span class="sp"></span>
 <a class="hide" href="#preuve">Preuve</a><a class="hide" href="#apercu">Aperçu</a><a class="hide" href="#avis">Avis</a><a class="hide" href="#prix">Prix</a>
@@ -104,30 +106,30 @@ footer{padding:30px 0;text-align:center;color:var(--mut);font-size:.9rem;border-
 <div class="mq"><div>Maths <b>★</b> PC <b>★</b> SVT <b>★</b> English <b>★</b> Philosophie <b>★</b> Programme de 60 jours <b>★</b> Examens nationaux <b>★</b> Cadres référentiels <b>★</b> YouTube <b>★</b> Maths <b>★</b> PC <b>★</b> SVT <b>★</b> English <b>★</b> Philosophie <b>★</b> Programme de 60 jours <b>★</b> Examens nationaux <b>★</b> Cadres référentiels <b>★</b> YouTube <b>★</b></div></div>
 <p style="text-align:center;margin-top:24px"><a class="btn" href="preview.html">Voir toutes les leçons</a></p></div></section>
 
-<section id="avis"><div class="wrap"><div class="rv-on"><h2>Ils ont utilisé le pack</h2><p class="sub">Avis des anciens élèves · آراء الطلبة</p></div>
-<div class="rev">
-<div class="rv sl l" style="transition-delay:0.0s"><div class="av">M</div><q>Ce drive m’a beaucoup aidé. Il m’a évité de perdre du temps à chercher des informations tout seul. Il regroupe toutes les matières de l’examen national, ainsi que des examens blancs et des examens nationaux des années précédentes. Merci pour votre création extraordinaire.</q><b>Mohamed</b></div>
-<div class="rv sl l" style="transition-delay:0.25s"><div class="av">Y</div><q>Ce drive m’a énormément aidé et m’a évité de perdre du temps à chercher les cours et les examens. Il contient absolument tout, ainsi que toutes les matières du baccalauréat national. C’est pour cette raison que je tiens à remercier sincèrement la personne qui l’a créé.</q><b>Yahya</b></div>
-<div class="rv sl l" style="transition-delay:0.5s"><div class="av">K</div><q>Ce drive m’a beaucoup aidée. Il m’a évité de perdre du temps à chercher des informations toute seule. Il regroupe toutes les matières de l’examen national. Merci pour votre création extraordinaire.</q><b>Khadija</b></div></div></div></section>
+<section id="visite"><div class="wrap"><div class="rv-on"><h2>Visite complète du Drive</h2><p class="sub">Regarde exactement ce que tu reçois, matière par matière. · جولة كاملة داخل الدرايف</p></div>
+<div class="video rv-on"><iframe src="https://www.youtube-nocookie.com/embed/doKWcS73vT8" title="Visite du Drive AFKH Success Pack" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen></iframe></div></div></section>
+
+<section id="avis"><div class="wrap"><div class="rv-on"><h2>De vrais messages d’élèves</h2><p class="sub">Plus de 1000 élèves ont utilisé ce Drive. Numéros masqués. · رسائل حقيقية من الطلبة، والأرقام مخفية.</p></div>
+<div class="shots rv-on"><figure><img src="avis-yahya.png" alt="Message de Yahya" loading="lazy"><figcaption>Yahya</figcaption></figure><figure><img src="avis-khadija.png" alt="Message de Khadija" loading="lazy"><figcaption>Khadija</figcaption></figure></div></div></section>
 
 <section id="prix"><div class="wrap"><div class="rv-on"><h2>Prix</h2></div>
+<!-- GARANTIE : supprime ce bloc si tu ne veux pas t’engager à rembourser -->
+<div class="box rv-on" style="margin-bottom:22px;border-color:var(--gold)"><h3>Tu ne paies qu’après avoir reçu le lien</h3><p>Si ton accès n’est pas activé dans les 24 heures après ton paiement, je te rembourse.</p><p class="ar" lang="ar" style="margin-top:6px;color:var(--gold2)">لا تدفع إلا بعد أن تستلم الرابط. وإذا لم يُفعَّل دخولك خلال 24 ساعة من الدفع، أرجع لك مالك.</p></div>
 <div class="prices rv-on"><div class="price best"><h3>Virement bancaire</h3><b class="n">100 DH</b><p>Paiement à ce RIB :</p><div class="rib">RIB : <span>007 780 0002177700300261 46</span> <button class="btn cp" id="cp" type="button">Copier</button><br>Titulaire : FIQHI ABDELHAK<br>Banque : Attijariwafa bank</div></div>
 <div class="price"><h3>Cash Plus</h3><b class="n">125 DH</b><p>Frais de service inclus. Écris-moi sur WhatsApp pour recevoir les informations de transfert.</p></div></div>
 <div class="g2 rv-on" style="margin-top:26px"><div><h3 style="margin-bottom:8px">Comment obtenir le pack</h3><ol>
-<li>Contacte-moi sur WhatsApp.</li><li>Dis-moi que tu veux le pack.</li><li>Fais ton paiement et je t’envoie un lien.</li>
-<li>Quand tu cliques sur le lien, je reçois un e-mail dans ma boîte de réception et j’active ton compte.</li>
-<li>Dans 5 minutes, je te préviens : clique sur le lien une autre fois.</li><li>Et voilà, tu as accès au Drive ! 🎉</li></ol>
+<li>Écris-moi sur WhatsApp et dis-moi que tu veux le pack.</li><li>Je t’envoie le lien du Drive, sans paiement.</li><li>Clique sur le lien avec ton compte Gmail : je reçois ta demande.</li><li>Paie ensuite (virement ou Cash Plus) et envoie-moi le reçu.</li><li>J’active ton accès. Clique de nouveau sur le lien : tu y es ! 🎉</li></ol>
 <p style="color:var(--mut);margin-top:12px;font-size:.92rem">Ce site ne collecte pas d’informations personnelles. Si tu as une question, ou si tu veux changer d’e-mail (par exemple si tu l’as oublié ou supprimé), contacte-moi, dis-moi le problème et je l’active à nouveau.</p></div>
 <div class="how ar" lang="ar" style="margin:0"><h3>كيف تحصل على الباقة؟</h3><ol>
-<li>تواصل معي على <b>واتساب</b>.</li><li>أخبرني أنك تريد الباقة.</li><li>قم بالدفع، وسأرسل لك <b>رابطاً</b>.</li>
-<li>عندما تضغط على الرابط يصلني <b>إيميل</b> في صندوق الوارد، وأقوم <b>بتفعيل حسابك</b>.</li>
-<li>بعد حوالي <b>5 دقائق</b> أخبرك لتضغط على الرابط مرة أخرى.</li><li>وها قد أصبح لديك الدخول إلى الدرايف 🎉</li></ol>
+<li>تواصل معي على <b>واتساب</b> وأخبرني أنك تريد الباقة.</li><li>أرسل لك <b>رابط</b> الدرايف، بدون دفع.</li><li>اضغط على الرابط بحساب Gmail الخاص بك، فيصلني طلبك.</li><li>ادفع بعد ذلك (تحويل بنكي أو Cash Plus) وأرسل لي صورة الإيصال.</li><li>أقوم <b>بتفعيل حسابك</b>. اضغط على الرابط مرة أخرى، وها قد أصبح لديك الدخول 🎉</li></ol>
 <p style="color:var(--gold2);font-size:.92rem">هذا الموقع لا يجمع معلومات شخصية. وإن كان لديك سؤال، أو أردت تغيير بريدك (مثلاً إن نسيته أو حذفته)، فتواصل معي وأخبرني بالمشكلة وسأفعّله لك من جديد.</p></div></div>
 <p style="margin-top:22px;text-align:center"><a class="btn wa" href="https://wa.me/212788977843?text=Bonjour%2C%20je%20veux%20acheter%20le%20pack">Acheter via WhatsApp</a></p></div></section>
 
 <section id="faq"><div class="wrap"><div class="rv-on"><h2>Questions fréquentes</h2></div>
+<details><summary>Est-ce que c’est fiable ?</summary><p>Tu reçois le lien avant de payer. Tu peux voir mon Bac, mes certificats, la visite vidéo et des messages d’élèves. Pose-moi toutes tes questions sur WhatsApp avant de payer.</p></details>
 <details><summary>Pourquoi un compte Google ?</summary><p>L’accès est activé sur le compte Google avec lequel tu cliques sur le lien. Si tu veux changer d’e-mail, contacte-moi.</p></details>
-<details><summary>En combien de temps j’ai l’accès ?</summary><p>Environ 5 minutes après ton paiement et ton clic sur le lien.</p></details>
+<details><summary>En combien de temps j’ai l’accès ?</summary><p>En général, quelques minutes après réception de ton reçu. Dans tous les cas, avant 24 heures.</p></details>
+<details><summary>Et si je n’ai pas de Gmail ?</summary><p>Crée un compte Gmail gratuit, puis écris-moi sur WhatsApp avec cette adresse.</p></details>
 <details><summary>Puis-je partager le lien ?</summary><p>Non. L’accès est personnel.</p></details>
 <details><summary>Le pack est-il valable pour toutes les filières ?</summary><p>Non. Il est fait pour les filières Sciences Physiques et SVT. Écris-moi sur WhatsApp si tu as un doute sur ta filière.</p></details></div></section>
 
@@ -141,7 +143,7 @@ var io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isInterse
 [].forEach.call(document.querySelectorAll('.sl'),function(el){io.observe(el);el.addEventListener('transitionend',function f(e){if(e.propertyName==='transform'){el.classList.remove('sl','l','r','z','in');el.style.transitionDelay='';el.removeEventListener('transitionend',f)}})});
 var T=new Date('2027-06-01T08:00:00+01:00').getTime();function p(n){return n<10?'0'+n:''+n}
 function t(){var d=Math.max(0,T-Date.now()),s=Math.floor(d/1000);document.getElementById('d').textContent=Math.floor(s/86400);document.getElementById('h').textContent=p(Math.floor(s%86400/3600));document.getElementById('m').textContent=p(Math.floor(s%3600/60));document.getElementById('s').textContent=p(s%60)}t();setInterval(t,1000);
-var lb=document.getElementById('lb');[].forEach.call(document.querySelectorAll('.sc img,.proof img'),function(i){i.onclick=function(){lb.firstChild.src=i.src;lb.className='on'}});lb.onclick=function(){lb.className=''};
+var lb=document.getElementById('lb');[].forEach.call(document.querySelectorAll('.sc img,.proof img,.shots img'),function(i){i.onclick=function(){lb.firstChild.src=i.src;lb.className='on'}});lb.onclick=function(){lb.className=''};
 document.getElementById('cp').onclick=function(){var v='007780000217770030026146',b=this;function ok(){b.textContent='Copié ✓';setTimeout(function(){b.textContent='Copier'},2000)}function fb(){var i=document.createElement('input');i.value=v;document.body.appendChild(i);i.select();try{document.execCommand('copy');ok()}catch(e){}i.remove()}
 if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(v).then(ok,fb)}else{fb()}};
 </script></body></html>
