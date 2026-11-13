@@ -1,0 +1,6 @@
+# AFKH Success Pack - Bac 2027
+> Pack de résumés, cadres référentiels, séries d'exercices et examens nationaux pour le Bac 2027 au Maroc, filières Sciences Physiques et SVT. Créé par Abdelhak Fiqhi (Bac 2026, mention Très Bien).
+
+## Pages
+- [Accueil](https://abdelhak11-alien.github.io/successinBAC2027/): présentation, prix, FAQ
+- [Toutes les leçons](https://abdelhak11-alien.github.io/successinBAC2027/preview.html): aperçu des cours
